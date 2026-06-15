@@ -18,7 +18,7 @@ export default function RobloxShowcase() {
     };
   }, []);
   
-  // Game simulation state
+  // Game simulation state total
   const [combatPoints, setCombatPoints] = useState(0);
   const [activeBugs, setActiveBugs] = useState<{ id: number; name: string; hp: number; maxHp: number }[]>([
     { id: 1, name: "InfiniteLoopBug", hp: 100, maxHp: 100 },
