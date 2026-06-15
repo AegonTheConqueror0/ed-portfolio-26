@@ -370,7 +370,7 @@ export default function App() {
                   <Award className="h-5 w-5 text-indigo-400" />
                   Multifaceted Career Sync Overview
                 </h2>
-                <p className="text-zinc-400 text-xs md:text-sm leading-relaxed text-left">
+                <p className="text-zinc-400 text-xs md:text-sm leading-relaxed text-justify">
                   Welcome to my portfolio! As an academic educator and systems engineer, I live at the intersection of complex systems development and specialized instructional pathways. Whether modeling client-server game state replication in <strong>Roblox (Luau)</strong>, structuring dynamic data engines using <strong>Google Firebase</strong>, analyzing micro-caching container performance in my <strong>MIT research</strong>, delivering technical lectures to undergraduate classes, or training Chinese students to speak English fluently and effectively in <strong>English for Specific Purposes (ESP)</strong> tracks—my goal is to empower users through pristine logic and systematic delivery.
                 </p>
               </div>
@@ -414,7 +414,7 @@ export default function App() {
                       <span className="text-[8px] font-bold text-amber-400 uppercase tracking-widest block">ACADEMICS</span>
                       <span className="text-[9px] font-mono text-emerald-400 font-bold">GPA {gpaInfo.scoreString}</span>
                     </div>
-                    <p className="text-xs font-semibold text-white truncate mt-1 group-hover:text-amber-300 transition-colors">MIT Graduate Candidate (UIC)</p>
+                    <p className="text-xs font-semibold text-white truncate mt-1 group-hover:text-amber-300 transition-colors">MIT Graduate Student (UIC)</p>
                     <span className="text-indigo-400 font-mono text-[9px] flex items-center justify-between mt-1 group-hover:translate-x-0.5 transition-transform">
                       <span>Inspect records →</span>
                     </span>
@@ -425,7 +425,7 @@ export default function App() {
               {/* Bento Grid */}
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                 
-                {/* Cardano 1: Roblox */}
+                {/* Cardano 1: Roblox game */}
                 <div 
                   onClick={() => setActiveTab("roblox")}
                   className="bg-white/5 border border-white/10 p-6 rounded-2xl flex flex-col justify-between group hover:border-indigo-500/50 transition-all cursor-pointer"
