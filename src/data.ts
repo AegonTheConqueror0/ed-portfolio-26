@@ -40,7 +40,7 @@ function DutyManager:SpawnDutyGear()
 end
 
 return DutyManager`,
-    visualThumbnailUrl: "/src/assets/images/bayanlife_thumbnail_1781498461530.jpg",
+    visualThumbnailUrl: "/src/assets/images/bayanlife_thumbnail_1781498461530.png",
     url: "https://www.roblox.com/games/82288089871948/BayanLife-Philippine-Roleplay"
   },
   {
@@ -78,7 +78,7 @@ function MansionGame.ApplySprintSpeed(player: Player, isSprinting: boolean)
 end
 
 return MansionGame`,
-    visualThumbnailUrl: "/src/assets/images/killers_mansion_thumbnail_1781498669353.jpg",
+    visualThumbnailUrl: "/src/assets/images/killers_mansion_thumbnail_1781498669353.png",
     url: "https://www.roblox.com/games/84289214205055/Killers-Mansion"
   }
 ];
