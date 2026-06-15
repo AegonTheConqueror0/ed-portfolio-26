@@ -1,5 +1,7 @@
 import { RobloxGame, FullStackProject, ResearchPaper, CourseTaught, ESPLesson, Certification, MSITSubject, MSITProject } from "./types";
 
+const resolveAsset = (filename: string) => new URL(`./assets/images/${filename}`, import.meta.url).href;
+
 export const ROBLOX_GAMES: RobloxGame[] = [
   {
     id: "game1",
